@@ -16,12 +16,12 @@ These scripts are intended to help prevent printing issues caused by white overp
 
 | File name | Purpose |
 |---|---|
-| `OverprintTools_Launcher.jsx` | Launcher script for running the included tools from one dialog |
-| `OverprintManager_Manual_ExternalMode.jsx` | Batch tool for checking and fixing white overprint and missing black overprint |
-| `OverprintCandidateNavigator.jsx` | Navigator tool for reviewing and processing candidates individually |
-| `OverprintNonBlackCleaner.jsx` | Tool for removing overprint from non-black objects |
-| `00-WhiteOverprint_RemainingSelector.jsx` | Diagnostic tool for checking remaining white overprint candidates |
-| `00-BlackTextOverprint_RemainingSelector.jsx` | Diagnostic tool for checking remaining black objects without overprint |
+| [`OverprintTools_Launcher.jsx`](scripts/OverprintTools_Launcher.jsx) | Launcher script for running the included tools from one dialog |
+| [`OverprintManager_Manual_ExternalMode.jsx`](scripts/OverprintManager_Manual_ExternalMode.jsx) | Batch tool for checking and fixing white overprint and missing black overprint |
+| [`OverprintCandidateNavigator.jsx`](scripts/OverprintCandidateNavigator.jsx) | Navigator tool for reviewing and processing candidates individually |
+| [`OverprintNonBlackCleaner.jsx`](scripts/OverprintNonBlackCleaner.jsx) | Tool for removing overprint from non-black objects |
+| [`00-WhiteOverprint_RemainingSelector.jsx`](scripts/00-WhiteOverprint_RemainingSelector.jsx) | Diagnostic tool for checking remaining white overprint candidates |
+| [`00-BlackTextOverprint_RemainingSelector.jsx`](scripts/00-BlackTextOverprint_RemainingSelector.jsx) | Diagnostic tool for checking remaining black objects without overprint |
 
 ## Purpose
 
