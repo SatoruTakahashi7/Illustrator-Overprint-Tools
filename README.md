@@ -17,12 +17,12 @@ English version: [README.en.md](README.en.md)
 
 | ファイル名 | 用途 |
 |---|---|
-| `OverprintTools_Launcher.jsx` | 各スクリプトをまとめて呼び出すランチャー |
-| `OverprintManager_Manual_ExternalMode.jsx` | 白OP解除・黒未OP設定をまとめて確認・実行する一括処理ツール |
-| `OverprintCandidateNavigator.jsx` | 候補を確認しながら個別に処理するナビゲーター |
-| `OverprintNonBlackCleaner.jsx` | 黒以外にかかっているオーバープリントを解除するツール |
-| `00-WhiteOverprint_RemainingSelector.jsx` | 白オーバープリント候補が残っていないか確認する診断ツール |
-| `00-BlackTextOverprint_RemainingSelector.jsx` | 黒未オーバープリント候補が残っていないか確認する診断ツール |
+| [`OverprintTools_Launcher.jsx`](scripts/OverprintTools_Launcher.jsx) | 各スクリプトをまとめて呼び出すランチャー |
+| [`OverprintManager_Manual_ExternalMode.jsx`](scripts/OverprintManager_Manual_ExternalMode.jsx) | 白OP解除・黒未OP設定をまとめて確認・実行する一括処理ツール |
+| [`OverprintCandidateNavigator.jsx`](scripts/OverprintCandidateNavigator.jsx) | 候補を確認しながら個別に処理するナビゲーター |
+| [`OverprintNonBlackCleaner.jsx`](scripts/OverprintNonBlackCleaner.jsx) | 黒以外にかかっているオーバープリントを解除するツール |
+| [`00-WhiteOverprint_RemainingSelector.jsx`](scripts/00-WhiteOverprint_RemainingSelector.jsx) | 白オーバープリント候補が残っていないか確認する診断ツール |
+| [`00-BlackTextOverprint_RemainingSelector.jsx`](scripts/00-BlackTextOverprint_RemainingSelector.jsx) | 黒未オーバープリント候補が残っていないか確認する診断ツール |
 
 ## 主な目的
 
