@@ -6,8 +6,8 @@ These scripts are intended to help prevent printing issues caused by white overp
 
 ## Tested Environment
 
-- macOS X 14.7.6
-- Adobe Illustrator 2024 (v28.7.9)
+- macOS 15.7.5
+- Adobe Illustrator 2024 (v28.7.10)
 - Mac Studio (2022)
 - JavaScript / ExtendScript
 - Developed with assistance from ChatGPT
