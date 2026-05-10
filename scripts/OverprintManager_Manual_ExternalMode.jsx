@@ -1,18 +1,19 @@
 /*
-    OverprintManager_Manual_ExternalMode.jsx
+SCRIPTMETA-BEGIN
+Script-ID=com.gyahtei.illustrator.overprint-tools.manual-external-mode
+Version=0.9.0
+Meta-URL=https://github.com/SatoruTakahashi7/Illustrator-Overprint-Tools
+Target-App=illustrator
+Name=Overprint Manager Manual External Mode
+Author=GYAHTEI Design Laboratory / Satoru Takahashi
+Description-BEGIN
+Illustratorドキュメント全体を対象に、白オーバープリント解除と黒未オーバープリント設定を一括確認・一括処理するツールです。TextFrame内の文字属性も可能な範囲で安全に判定します。
+Description-END
+SCRIPTMETA-END
+*/
 
-    SCRIPTMETA:
-    Script-ID: com.gyahtei.illustrator.overprint-manager.manual-external-mode
-    Name: 白のせ／黒のせ一括チェック・処理ツール
-    Name-en: Overprint Manager Manual External Mode
-    Version: 0.9.0
-    Host: illustrator
-    Description: 白オーバープリント解除と黒未オーバープリント設定を一括確認・処理します。
-    Description-en: Checks and processes white overprints and missing black overprints in batch.
-    Author: GYAHTEI Design Laboratory / Satoru Takahashi
-    Author-url: https://gyahtei.com/
-    License: MIT
-    END-SCRIPTMETA
+/*
+    OverprintManager_Manual_ExternalMode.jsx
     Version: 0.9.0
     Updated: 2026-04-29
     GYAHTEI Design Laboratory 

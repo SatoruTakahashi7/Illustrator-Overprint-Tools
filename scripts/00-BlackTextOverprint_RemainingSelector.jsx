@@ -1,18 +1,19 @@
 /*
-    BlackTextOverprint_RemainingSelector.jsx
+SCRIPTMETA-BEGIN
+Script-ID=com.gyahtei.illustrator.overprint-tools.blacktext-remaining-selector
+Version=1.0.0
+Meta-URL=https://github.com/SatoruTakahashi7/Illustrator-Overprint-Tools
+Target-App=illustrator
+Name=Black Text Overprint Remaining Selector
+Author=GYAHTEI Design Laboratory / Satoru Takahashi
+Description-BEGIN
+K100など黒として扱う文字や線が未オーバープリントになっていないかを確認し、候補を選択する診断用ツールです。オブジェクトの変更は行いません。
+Description-END
+SCRIPTMETA-END
+*/
 
-    SCRIPTMETA:
-    Script-ID: com.gyahtei.illustrator.black-text-overprint-remaining-selector
-    Name: 黒未オーバープリント残り候補 選択診断ツール
-    Name-en: Black Text Overprint Remaining Selector
-    Version: 1.0.0
-    Host: illustrator
-    Description: 黒未オーバープリント候補を探して選択し、1件目へズームします。変更は行いません。
-    Description-en: Finds and selects remaining missing black overprint candidates without modifying the document.
-    Author: GYAHTEI Design Laboratory / Satoru Takahashi
-    Author-url: https://gyahtei.com/
-    License: MIT
-    END-SCRIPTMETA
+/*
+    BlackTextOverprint_RemainingSelector.jsx
     Version: 1.0.0
     Updated: 2026-04-29
     GYAHTEI Design Laboratory 
