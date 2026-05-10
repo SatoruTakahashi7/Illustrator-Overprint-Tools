@@ -1,5 +1,18 @@
 /*
     WhiteOverprint_RemainingSelector.jsx
+
+    SCRIPTMETA:
+    Script-ID: com.gyahtei.illustrator.white-overprint-remaining-selector
+    Name: 白オーバープリント残り候補 選択診断ツール
+    Name-en: White Overprint Remaining Selector
+    Version: 1.0.0
+    Host: illustrator
+    Description: 白オーバープリント候補を探して選択し、1件目へズームします。変更は行いません。
+    Description-en: Finds and selects remaining white overprint candidates without modifying the document.
+    Author: GYAHTEI Design Laboratory / Satoru Takahashi
+    Author-url: https://gyahtei.com/
+    License: MIT
+    END-SCRIPTMETA
     Version: 1.0.0
     Updated: 2026-04-29
     GYAHTEI Design Laboratory 

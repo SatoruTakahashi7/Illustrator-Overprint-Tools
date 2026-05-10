@@ -1,5 +1,18 @@
 /*
     OverprintNonBlackCleaner.jsx
+
+    SCRIPTMETA:
+    Script-ID: com.gyahtei.illustrator.overprint-non-black-cleaner
+    Name: 黒以外のオーバープリント解除ツール
+    Name-en: Overprint Non-Black Cleaner
+    Version: 1.1.0
+    Host: illustrator
+    Description: 黒以外に設定されているオーバープリントをドキュメント全体から解除します。
+    Description-en: Clears overprints applied to non-black objects throughout the document.
+    Author: GYAHTEI Design Laboratory / Satoru Takahashi
+    Author-url: https://gyahtei.com/
+    License: MIT
+    END-SCRIPTMETA
     Version: 1.1.0
     Updated: 2026-04-29
     GYAHTEI Design Laboratory

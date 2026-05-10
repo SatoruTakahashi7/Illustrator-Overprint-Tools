@@ -1,6 +1,19 @@
 /*
     OverprintCandidateNavigator.jsx
 
+    SCRIPTMETA:
+    Script-ID: com.gyahtei.illustrator.overprint-candidate-navigator
+    Name: 白／黒オーバープリント候補 個別確認ツール
+    Name-en: Overprint Candidate Navigator
+    Version: 0.9.0
+    Host: illustrator
+    Description: 白OP候補・黒未OP候補を1件ずつ確認し、必要な候補だけ処理します。
+    Description-en: Reviews white overprint and missing black overprint candidates one by one.
+    Author: GYAHTEI Design Laboratory / Satoru Takahashi
+    Author-url: https://gyahtei.com/
+    License: MIT
+    END-SCRIPTMETA
+
     Version: 0.9.0
     Updated: 2026-04-29
     GYAHTEI Design Laboratory 

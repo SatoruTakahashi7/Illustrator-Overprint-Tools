@@ -1,5 +1,18 @@
 /*
     OverprintTools_Launcher.jsx
+
+    SCRIPTMETA:
+    Script-ID: com.gyahtei.illustrator.overprint-tools.launcher
+    Name: オーバープリントツール・ランチャー
+    Name-en: Overprint Tools Launcher
+    Version: 0.9.0
+    Host: illustrator
+    Description: Illustrator用オーバープリント関連ツールを1つの入口から起動します。
+    Description-en: Launches Illustrator overprint-related tools from a single entry point.
+    Author: GYAHTEI Design Laboratory / Satoru Takahashi
+    Author-url: https://gyahtei.com/
+    License: MIT
+    END-SCRIPTMETA
     Version: v0.9.0
     Updated: 2026-04-30
     GYAHTEI Design Laboratory
