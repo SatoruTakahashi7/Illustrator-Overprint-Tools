@@ -1,70 +1,41 @@
 # Illustrator Overprint Tools
 
-A set of JSX scripts for checking and fixing overprint settings in Adobe Illustrator.
-
-These tools help remove white overprints, apply overprint to missing black objects, and select remaining candidates for visual inspection.
+A set of Illustrator JSX scripts for checking and fixing overprint settings in print production workflows.
 
 ## Download
 
-Download the latest release here:
+Download the latest version from Releases:
 
-👉 https://github.com/SatoruTakahashi7/Illustrator-Overprint-Tools/releases/latest
+https://github.com/SatoruTakahashi7/Illustrator-Overprint-Tools/releases/latest
 
-## Included Scripts
+## Included tools
 
-| File | Purpose |
-|---|---|
-| `OverprintTools_Launcher.jsx` | Launcher for the overprint tools |
-| `OverprintManager_Manual_ExternalMode.jsx` | Batch check and process white overprints / missing black overprints |
-| `OverprintCandidateNavigator.jsx` | Review and process candidates one by one |
-| `OverprintNonBlackCleaner.jsx` | Clear overprints applied to non-black objects |
-| `00-WhiteOverprint_RemainingSelector.jsx` | Select and zoom to remaining white overprint candidates. No changes are made |
-| `00-BlackTextOverprint_RemainingSelector.jsx` | Select and zoom to remaining missing black overprint candidates. No changes are made |
+- `OverprintTools_Launcher.jsx`  
+  Launcher for the overprint tools.
+- `OverprintManager_Manual_ExternalMode.jsx`  
+  Batch check and batch processing for white overprint removal and black overprint enforcement.
+- `OverprintCandidateNavigator.jsx`  
+  Review candidates one by one and process only selected candidates.
+- `OverprintNonBlackCleaner.jsx`  
+  Remove overprint settings from non-black objects and text attributes.
+- `00-WhiteOverprint_RemainingSelector.jsx`  
+  Diagnostic selector for remaining white overprint candidates. Does not modify artwork.
+- `00-BlackTextOverprint_RemainingSelector.jsx`  
+  Diagnostic selector for remaining black text overprint candidates. Does not modify artwork.
 
-## Usage
+## SCRIPTMETA
 
-1. Put the JSX files in the `src` folder into Illustrator's Scripts folder.
-2. Restart Illustrator.
-3. Run the scripts from `File > Scripts`.
-4. In normal use, start with `OverprintTools_Launcher.jsx`.
+This repository follows the SCRIPTMETA v1.4 format.
 
-## Target
-
-- Adobe Illustrator
-- PathItem
-- CompoundPathItem
-- Fill and stroke attributes in TextFrame characters
-
-## Detection Summary
-
-### Treated as white
-
-- CMYK 0 / 0 / 0 / 0
-- Gray 0
-- SpotColor whose actual color is white
-
-### Treated as black
-
-- CMYK 0 / 0 / 0 / 100
-- Gray 100
-- SpotColor whose actual color is K100
-
-### Out of scope
-
-- Registration
-- Rich black
-- RGB / Lab / Gradient / Pattern
-- Appearance-level fills and strokes
-- Effects
-- Brushes
-- Symbols
-- Contents inside placed PDF / AI files
+- Local script blocks: `SCRIPTMETA-BEGIN` / `SCRIPTMETA-END`
+- Distribution metadata: `SCRIPTMETA.txt` at the repository root
+- `Meta-URL`: `https://github.com/SatoruTakahashi7/Illustrator-Overprint-Tools`
 
 ## Notes
 
 Always test on duplicate data before using these scripts in production.
 
-These scripts target regular fills, strokes, and character attributes inside TextFrames. Appearance-level fills/strokes, effects, brushes, symbols, and contents inside placed PDF/AI files may not be fully detected or processed.
+These scripts mainly target standard fills/strokes and text attributes inside TextFrames. Appearance-level fills/strokes, effects, brushes, symbols, and contents inside placed PDF/AI files may not be fully detected or processed.
 
 ## License
 
